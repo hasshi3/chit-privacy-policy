@@ -20,7 +20,7 @@ We may update our Privacy Policy from time to time. We will notify you of any ch
 
 ## 5. Contact Us
 If you have any questions or suggestions about this Privacy Policy, please contact us at:
-hasshi55+chit@gmail.com
+chit.app.contact@gmail.com
 
 ---
 
@@ -46,4 +46,4 @@ hasshi55+chit@gmail.com
 
 ## 5. お問い合わせ
 本プライバシーポリシーに関するご質問やご要望がございましたら、以下までご連絡ください。
-hasshi55+chit@gmail.com
+chit.app.contact@gmail.com
