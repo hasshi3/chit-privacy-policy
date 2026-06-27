@@ -18,7 +18,11 @@ The App uses the Google Calendar API to sync your activity logs to your personal
 ## 4. Changes to This Privacy Policy
 We may update our Privacy Policy from time to time. We will notify you of any changes by updating the "Effective Date" at the top of this policy.
 
-## 5. Contact Us
+## 5. In-App Purchases and Subscriptions
+The App offers in-app purchases (subscriptions). We use third-party services, such as 
+RevenueCat and Google Play Billing, to process and manage these transactions. These services may collect anonymous installation IDs and purchase history to function correctly. The App does not process or store your payment details (e.g., credit card information).
+
+## 6. Contact Us
 If you have any questions or suggestions about this Privacy Policy, please contact us at:
 chit.app.contact@gmail.com
 
@@ -44,6 +48,10 @@ chit.app.contact@gmail.com
 ## 4. プライバシーポリシーの変更
 本プライバシーポリシーは随時更新される場合があります。変更があった場合は、本ポリシー上部の「発効日」を更新することでお知らせします。
 
-## 5. お問い合わせ
+## 5. アプリ内課金と定期購入（サブスクリプション）
+本アプリはアプリ内課金（定期購入）を提供しています。これらの取引を処理および管理するために、RevenueCatやGoogle Play Billingなどのサードパーティサービスを使用しています。これらのサービスは、正常に機能するために匿名のインストールIDや購入履歴を収集する場合があります。本アプリ自体がお客様の支払い情報（クレジットカード情報など）を直接処理、または保存することはありません。
+
+## 6. お問い合わせ
 本プライバシーポリシーに関するご質問やご要望がございましたら、以下までご連絡ください。
 chit.app.contact@gmail.com
+
