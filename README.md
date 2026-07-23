@@ -1,3 +1,5 @@
+[Support & Manual](support.html)
+
 # Privacy Policy for Chit
 
 **Effective Date: June 21, 2026**
@@ -27,6 +29,7 @@ If you have any questions or suggestions about this Privacy Policy, please conta
 chit.app.contact@gmail.com
 
 ---
+[サポート＆マニュアルはこちら](support.html)
 
 # 「Chit」プライバシーポリシー
 
