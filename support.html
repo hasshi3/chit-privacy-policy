@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit: Life Logger & Tracker - Support & Manual</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header { margin-bottom: 2em; }
+        nav ul { list-style-type: none; padding: 0; display: flex; gap: 15px; flex-wrap: wrap; }
+        nav a { text-decoration: none; color: #0056b3; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        h1, h2, h3 { color: #2c3e50; }
+        h2 { border-bottom: 2px solid #eaeaea; padding-bottom: 0.5em; margin-top: 2em; }
+        h3 { margin-top: 1.8em; color: #34495e; }
+        article p, article ul { margin-left: 1.5em; }
+        ul { margin-top: 0.5em; margin-bottom: 1em; padding-left: 1.5em; }
+        li { margin-bottom: 0.8em; }
+        
+        /* 💡 詳細ページへ誘導するグラフィカルなリンクボタンのスタイル */
+        .detail-link-box {
+            margin: 1em 0 1.5em 1.5em;
+            padding: 12px 18px;
+            background-color: #f1f8ff;
+            border-left: 4px solid #0366d6;
+            border-radius: 0 6px 6px 0;
+            display: inline-block;
+        }
+        .detail-link-box a {
+            text-decoration: none;
+            color: #0366d6;
+            font-weight: bold;
+        }
+        .detail-link-box a:hover {
+            text-decoration: underline;
+        }
+
+        #concept ul, #notes ul {
+            background-color: #f8f9fa;
+            padding: 1.5em 1.5em 1.5em 2.5em;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            margin-left: 0;
+        }
+        hr { border: 0; height: 1px; background: #eaeaea; margin: 40px 0; }
+        .section-divider { border: 0; height: 2px; background: #ccc; margin: 60px 0; }
+        footer { margin-top: 50px; text-align: center; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
+
+    <!-- ==========================================
+         ENGLISH SECTION
+    =========================================== -->
+    <header>
+        <h1>Chit Support Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#concept-en">Concept</a></li>
+                <li><a href="#manual-en">Manual</a></li>
+                <li><a href="#notes-en">Notes</a></li>
+                <li><a href="https://hasshi3.github.io/chit-privacy-policy/">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="concept-en">
+            <h2>What is Chit?</h2>
+            <ul>
+                <li><strong>Record your actions instantly.</strong></li>
+                <li><strong>Sync your data seamlessly with Google Calendar.</strong></li>
+                <li><strong>Review your daily activities directly on Google Calendar.</strong></li>
+                <li><strong>Download and utilize your Google Calendar data for further analysis.</strong></li>
+            </ul>
+        </section>
+
+        <section id="manual-en">
+            <h2>Manual</h2>
+            
+            <article>
+                <h3>1. Basic Tracking</h3>
+                <p>Recording is just a click away.</p>
+                <ul>
+                    <li><strong>Instant Actions:</strong> Record immediately with a short tap.</li>
+                    <li><strong>Continuous Actions:</strong> Long-press to start tracking and measure the duration of your task.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2. Metadata</h3>
+                <p>You can add various extra information when tracking.</p>
+                <ul>
+                    <li>Add companions, tags, memos, locations, and energy levels to keep a highly detailed lifelog.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>3. Routine Tasks</h3>
+                <p>While standard lifelogs record "what happened as a result," Routine Tasks are designed to record <strong>"whether you actually executed what was planned or not."</strong></p>
+                <ul>
+                    <li>Even if you couldn't execute a task, you can easily leave a record showing that you "couldn't do it."</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>4. Google Calendar Sync</h3>
+                <p>Chit stores all data locally. Since reviewing raw local data can be difficult, it syncs with your Google Calendar.</p>
+                <ul>
+                    <li><strong>Dedicated Calendar:</strong> A dedicated calendar named "Chit" is created for your records. You can toggle its visibility ON/OFF to keep your view clean.</li>
+                    <li><strong>Gapless Visualization:</strong> By utilizing long-presses (continuous actions), your calendar will fill up seamlessly.</li>
+                    <li><strong>Semi-automated Communication:</strong> You can assign a special calendar for Routine Tasks. By sharing this calendar, you can enable semi-automated communication with family or friends.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>5. LLM Quota Management</h3>
+                <p>This is useful for managing temporary restrictions (BANs) when you reach your LLM usage limit.</p>
+                <ul>
+                    <li>It is difficult to set up a 5-hour recurring schedule for a full week using Google Calendar's standard features.</li>
+                    <li>Chit allows you to manage cases where the quota reset times vary depending on the day of the week.</li>
+                    <li>You can set when and how often the quota resets, managing the schedule directly on your timeline.</li>
+                </ul>
+                <!-- グラフィカルな詳細ページへのリンク -->
+                <div class="detail-link-box">
+                    <a href="llm-guide.html">📖 Learn more about LLM Quota Management &rarr;</a>
+                </div>
+            </article>
+
+            <article>
+                <h3>6. Premium Plan (Chit Pro)</h3>
+                <ul>
+                    <li>Unlocks unlimited data syncing and transfers to your Google Calendar.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="notes-en">
+            <h2>Notes</h2>
+            <ul>
+                <li>Data is <strong>fundamentally saved locally</strong> on your Android smartphone. Google Calendar is the only synchronization destination.</li>
+                <li>Therefore, even if you use the app on multiple devices, <strong>cross-device synchronization is not possible</strong>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <hr class="section-divider">
+
+    <!-- ==========================================
+         JAPANESE SECTION
+    =========================================== -->
+    <header>
+        <h1>Chit サポートセンター</h1>
+        <nav>
+            <ul>
+                <li><a href="#concept-ja">Chitとは？</a></li>
+                <li><a href="#manual-ja">操作説明</a></li>
+                <li><a href="#notes-ja">注意事項</a></li>
+                <li><a href="https://hasshi3.github.io/chit-privacy-policy/">プライバシーポリシー</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="concept-ja">
+            <h2>💡 Chitとは？</h2>
+            <ul>
+                <li><strong>あなたの行動をすぐに記録できる。</strong></li>
+                <li><strong>そのデータをGoogleカレンダーに連携することができる。</strong></li>
+                <li><strong>Googleカレンダーで振り返ることができる。</strong></li>
+                <li><strong>Googleカレンダーのデータをダウンロードすることで利活用できる。</strong></li>
+            </ul>
+        </section>
+
+        <section id="manual-ja">
+            <h2>📖 操作説明</h2>
+            
+            <article>
+                <h3>1. 打刻の基本</h3>
+                <p>記録はワンクリックで可能です。</p>
+                <ul>
+                    <li><strong>瞬間的な行動：</strong> ショートタップで即座に記録します。</li>
+                    <li><strong>継続的な行動：</strong> ロングタップ（長押し）で記録を開始し、作業時間などを計測します。</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>2. メタデータ</h3>
+                <p>打刻時に様々な付加情報を記録できます。</p>
+                <ul>
+                    <li>共演者、タグ、メモ、場所、エネルギーレベルなどを追加し、詳細なライフログを残すことができます。</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>3. 定期タスク</h3>
+                <p>通常のライフログが「起こったことを結果として記録するもの」であるのに対し、定期タスクは<strong>「予め予定されていたことを実際に実行したのか、できなかったのか」</strong>を記録するための機能です。</p>
+                <ul>
+                    <li>実行できなかった場合でも、「できなかったこと」を簡単に記録として残すことができます。</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>4. Googleカレンダーへの連携</h3>
+                <p>Chitはすべてのデータをローカルに保存します。そのままでは振り返りが難しいため、ご自身のGoogleカレンダーへ連携を行います。</p>
+                <ul>
+                    <li><strong>専用カレンダーの作成：</strong> 「Chit」という専用カレンダーを作成し、そこに記載します。表示をON/OFFすることで、視認性も確保できます。</li>
+                    <li><strong>隙間のない可視化：</strong> 特にロングタップ（継続的な行動）を活用すると、カレンダーが隙間なく埋まっていきます。</li>
+                    <li><strong>半自動コミュニケーション：</strong> 定期タスクでは特別なカレンダーを使うことができます。このカレンダーを共有することで、家族や友達との半自動コミュニケーションを行うことができます。</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>5. LLM管理機能</h3>
+                <p>LLMの使用量が上限に達し、時間的にBAN（制限）された際の管理に役立ちます。</p>
+                <ul>
+                    <li>Googleカレンダーでは、5時間ごとの1週間の設定をすることが難しいです。</li>
+                    <li>使用量のリセット時間が日によって異なることを管理することができます。</li>
+                    <li>いつまで、何時間ごとにリセットされるかを設定し、タイムライン上でスケジュールを管理することができます。</li>
+                </ul>
+                <!-- グラフィカルな詳細ページへのリンク -->
+                <div class="detail-link-box">
+                    <a href="llm-guide.html">📖 LLM管理機能の詳細な使い方・活用ガイドを見る &rarr;</a>
+                </div>
+            </article>
+
+            <article>
+                <h3>6. プレミアムプラン</h3>
+                <ul>
+                    <li>Googleカレンダーへの情報転送が無制限となります。</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="notes-ja">
+            <h2>⚠️ 注意事項</h2>
+            <ul>
+                <li>データはAndroidスマホの<strong>ローカルに保存されるのが基本</strong>であり、連携先はGoogleカレンダーのみとなっています。</li>
+                <li>したがって、複数デバイスで使用しても<strong>デバイス間連携（同期）はできません</strong>。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Tatsuya Hashimoto. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
